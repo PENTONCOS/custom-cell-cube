@@ -31,10 +31,18 @@
     "cross-env": "^7.0.2"
   },
   "keywords": [
+    "cell",
     "merge",
     "split",
     "cube"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PENTONCOS/custom-cell-cube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PENTONCOS/custom-cell-cube/issues"
+  },
   "author": "jiapandong",
   "email": "515327098@qq.com"
 }
