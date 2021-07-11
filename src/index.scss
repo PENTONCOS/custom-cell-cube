@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  border: 1px solid #999;
+  display: grid;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px dashed #eee;
+
+    user-select: none;
+
+    .split_btn {
+      margin: 8px;
+      padding: 4px 14px;
+      border: none;
+      outline: none;
+      background: none;
+      cursor: pointer;
+      border-radius: 4px;
+      color: #fff;
+      background-color: cornflowerblue;
+    }
+  }
+
+  .cover {
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(100, 100, 149, .1);
+    border: 1px dashed #6495ed;
+  }
+}
